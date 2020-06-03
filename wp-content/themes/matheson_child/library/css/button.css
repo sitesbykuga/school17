@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* #Buttons
+==================================================*/
+p.button-text{
+  position: relative;
+  vertical-align: top;
+
+  padding: .7em 1.5em;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  border: 0;
+  cursor: pointer;
+  text-decoration:none;
+  margin: 1px 0.5px; 
+  
+}
+
+
+p.button-text:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Sun Flower Button - желтый
+==================================================*/
+.sun-flower-button {
+  background: #f1c40f;
+  border-bottom: 2px solid #e2b607;
+  -webkit-box-shadow: inset 0 -2px #e2b607;
+  box-shadow: inset 0 -2px #e2b607;
+}
+.sun-flower-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Orange Flat Button - оранжевый
+==================================================*/
+.orange-flat-button {
+  background: #f39c12;
+  border-bottom: 2px solid #e8930c;
+  -webkit-box-shadow: inset 0 -2px #e8930c;
+  box-shadow: inset 0 -2px #e8930c;
+}
+.orange-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Carrot Flat Button - морковный
+==================================================*/
+.carrot-flat-button {
+  background: #e67e22;
+  border-bottom: 2px solid #da751c;
+  -webkit-box-shadow: inset 0 -2px #da751c;
+  box-shadow: inset 0 -2px #da751c;
+}
+.carrot-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Pumpkin Flat Button - тыквенный
+==================================================*/
+.pumpkin-flat-button {
+  background: #d35400;
+  border-bottom: 2px solid #c54e00;
+  -webkit-box-shadow: inset 0 -2px #c54e00;
+  box-shadow: inset 0 -2px #c54e00;
+}
+.pumpkin-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Alizarin Flat Button - нежно-красный
+==================================================*/
+.alizarin-flat-button {
+  background: #e74c3c;
+  border-bottom: 2px solid #db4334;
+  -webkit-box-shadow: inset 0 -2px #db4334;
+  box-shadow: inset 0 -2px #db4334;
+}
+.alizarin-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Pomegranate Flat Button - кирпичный
+==================================================*/
+.pomegranate-flat-button {
+  background: #c0392b;
+  border-bottom: 2px solid #b53224;
+  -webkit-box-shadow: inset 0 -2px #b53224;
+  box-shadow: inset 0 -2px #b53224;
+}
+.pomegranate-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Turquoise Flat Button - морская волна
+==================================================*/
+.turquoise-flat-button {
+  background: #1abc9c;
+  border-bottom: 2px solid #12ab8d;
+  -webkit-box-shadow: inset 0 -2px #12ab8d;
+  box-shadow: inset 0 -2px #12ab8d;
+}
+.turquoise-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Green Sea Flat Button - зеленое море
+==================================================*/
+.green-sea-flat-button {
+  background: #16a085;
+  border-bottom: 2px solid #14947b;
+  -webkit-box-shadow: inset 0 -2px #14947b;
+  box-shadow: inset 0 -2px #14947b;
+}
+.green-sea-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Emerald Flat Button - ярко-зеленый
+==================================================*/
+.emerald-flat-button {
+  background: #2ecc71;
+  border-bottom: 2px solid #28be68;
+  -webkit-box-shadow: inset 0 -2px #28be68;
+  box-shadow: inset 0 -2px #28be68;
+}
+.emerald-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Nephritis Flat Button - нефрит
+==================================================*/
+.nephritis-flat-button {
+  background: #27ae60;
+  border-bottom: 2px solid #219d55;
+  -webkit-box-shadow: inset 0 -2px #219d55;
+  box-shadow: inset 0 -2px #219d55;
+}
+.nephritis-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Peter River Flat Button - голубой
+==================================================*/
+.peter-river-flat-button {
+  background: #3498db;
+  border-bottom: 2px solid #2a8bcc;
+  -webkit-box-shadow: inset 0 -2px #2a8bcc;
+  box-shadow: inset 0 -2px #2a8bcc;
+}
+.peter-river-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Belize Hole Sea Flat Button - синий
+==================================================*/
+.belize-hole-flat-button {
+  background: #2980b9;
+  border-bottom: 2px solid #2475ab;
+  -webkit-box-shadow: inset 0 -2px #2475ab;
+  box-shadow: inset 0 -2px #2475ab;
+}
+.belize-hole-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Amethyst Flat Button - сиреневый
+==================================================*/
+.amethyst-flat-button {
+  background: #9b59b6;
+  border-bottom: 2px solid #8d4ca7;
+  -webkit-box-shadow: inset 0 -2px #8d4ca7;
+  box-shadow: inset 0 -2px #8d4ca7;
+}
+.amethyst-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Wisteria Flat Button - темно-сиреневый
+==================================================*/
+.wisteria-flat-button {
+  background: #8e44ad;
+  border-bottom: 2px solid #80399d;
+  -webkit-box-shadow: inset 0 -2px #80399d;
+  box-shadow: inset 0 -2px #80399d;
+}
+.wisteria-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Wet Asphalt Flat Button - асфальт
+==================================================*/
+.wet-asphalt-flat-button {
+  background: #34495e;
+  border-bottom: 2px solid #263849;
+  -webkit-box-shadow: inset 0 -2px #263849;
+  box-shadow: inset 0 -2px #263849;
+}
+.wet-asphalt-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Midnight Blue Flat Button - серо-синий
+==================================================*/
+.midnight-blue-flat-button {
+  background: #2c3e50;
+  border-bottom: 2px solid #22303f;
+  -webkit-box-shadow: inset 0 -2px #22303f;
+  box-shadow: inset 0 -2px #22303f;
+}
+.midnight-blue-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Clouds Flat Button - почти белый
+==================================================*/
+.clouds-flat-button {
+  background: #ecf0f1;
+  border-bottom: 2px solid #dadedf;
+  -webkit-box-shadow: inset 0 -2px #dadedf;
+  box-shadow: inset 0 -2px #dadedf;
+}
+.clouds-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Silver Flat Button - серебристый
+==================================================*/
+.silver-flat-button {
+  background: #bdc3c7;
+  border-bottom: 2px solid #acb2b7;
+  -webkit-box-shadow: inset 0 -2px #acb2b7;
+  box-shadow: inset 0 -2px #acb2b7;
+}
+.silver-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Concrete Flat Button - светло-серый
+==================================================*/
+.concrete-flat-button {
+  background: #859596;
+  border-bottom: 2px solid #95a5a6;
+  -webkit-box-shadow: inset 0 -2px #95a5a6;
+  box-shadow: inset 0 -2px #95a5a6;
+}
+.concrete-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Asbestos Flat Button - серый
+==================================================*/
+.asbestos-flat-button {
+  background: #7f8c8d;
+  border-bottom: 2px solid #6d7b7c;
+  -webkit-box-shadow: inset 0 -2px #6d7b7c;
+  box-shadow: inset 0 -2px #6d7b7c;
+}
+.asbestos-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* #Graphite Flat Button - графит
+==================================================*/
+.graphite-flat-button {
+  background: #454545;
+  border-bottom: 2px solid #2f2e2e;
+  -webkit-box-shadow: inset 0 -2px #2f2e2e;
+  box-shadow: inset 0 -2px #2f2e2e;
+}
+.graphite-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+   

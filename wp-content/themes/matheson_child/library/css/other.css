@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+#attention{
+	text-align: center;
+	position	: relative;
+}
+
+#attention-sidebar{
+  position  : relative;
+  text-align: center;
+  margin: 10px 0 20px;
+  height: 80px;
+}
+
+#attention img{
+	width: 100%;
+}
+
+#attention a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  position	: absolute;
+  right: 50px;
+  font-family: "Lato", sans-serif;
+  color: #111111;
+  text-align: right;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#attention-sidebar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #111111;
+  transform: translate(0, 0);
+  letter-spacing: -1px;
+  font-size: 22px;
+
+  position  : absolute;
+  font-family: "Lato", sans-serif;
+  color: #111111;
+  top: 0;
+  left: 0;
+}
+
+@-webkit-keyframes top {
+  from {
+    -webkit-transform: translate(0rem, 0);
+            transform: translate(0rem, 0);
+  }
+  to {
+    -webkit-transform: translate(0rem, 3.5rem);
+            transform: translate(0rem, 3.5rem);
+  }
+}
+
+@keyframes top {
+  from {
+    -webkit-transform: translate(0rem, 0);
+            transform: translate(0rem, 0);
+  }
+  to {
+    -webkit-transform: translate(0rem, 3.5rem);
+            transform: translate(0rem, 3.5rem);
+  }
+}
+@-webkit-keyframes bottom {
+  from {
+    -webkit-transform: translate(-11.5rem, 0);
+            transform: translate(-11.5rem, 0);
+  }
+  to {
+    -webkit-transform: translate(0rem, 0);
+            transform: translate(0rem, 0);
+  }
+}
+@keyframes bottom {
+  from {
+    -webkit-transform: translate(-11.5rem, 0);
+            transform: translate(-11.5rem, 0);
+  }
+  to {
+    -webkit-transform: translate(0rem, 0);
+            transform: translate(0rem, 0);
+  }
+}
+.btn-attention {
+  position: relative;
+  letter-spacing: 0.15em;
+  margin: 0 auto;
+  padding: 1rem 2.5rem;
+  background: transparent;
+  outline: none;
+  font-size: 22px;
+  color: #111111;
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
+}
+.btn-attention::after, .btn-attention::before {
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 10%;
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: -2;
+  border-radius: 50%;
+}
+.btn-attention::before {
+  background-color: #c92918;
+  top: -0.75rem;
+  left: 0.5rem;
+  -webkit-animation: top 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.25s infinite alternate;
+          animation: top 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.25s infinite alternate;
+}
+.btn-attention::after {
+  background-color: #e74c3c;
+  top: 3rem;
+  left: 13rem;
+  -webkit-animation: bottom 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s infinite alternate;
+          animation: bottom 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s infinite alternate;
+}
+.btn-attention:hover {
+  color: white;
+}
+.btn-attention:hover::before, .btn-attention:hover::after {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  -webkit-animation: none;
+          animation: none;
+}
+.btn-attention:hover::after {
+  left: 0rem;
+}
+.btn-attention:hover::before {
+  top: 0.5rem;
+  left: 0.35rem;
+}
+
+@media (max-width: 767px) {
+	.btn-attention{
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 500px) {
+	#img-attention{
+		filter: alpha(Opacity=0); /* Полупрозрачность для IE */
+    	opacity: 0;
+	}
+}
+

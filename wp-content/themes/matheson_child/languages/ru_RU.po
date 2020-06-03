@@ -1,0 +1,911 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Project-Id-Version: Matheson\n"
+"POT-Creation-Date: 2017-03-08 12:15-0500\n"
+"PO-Revision-Date: 2020-03-27 00:38+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:15
+msgid "404 Error"
+msgstr "404 ошибка - страница не найдена"
+
+#: 404.php:18
+msgid "Sorry. We can't seem to find the page you're looking for."
+msgstr "Извините. Мы не можем найти страницу, которую вы ищете."
+
+#: comments.php:29
+#, php-format
+msgid "1 comment for &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments for &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария для &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+#: comments.php:40
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:41
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+#: comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: footer.php:16
+#, php-format
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgstr ""
+"Все права защищены &copy; %1$s %2$s. Перепечатка материала возможна только с "
+"установкой обратной ссылки."
+
+#: footer.php:17
+#, php-format
+msgid "The %1$s Theme by %2$s."
+msgstr "%1$s Тема на %2$s."
+
+#: front-page.php:62 functions.php:487 page.php:31
+#: template-parts/content-aside.php:17 template-parts/content-audio.php:17
+#: template-parts/content-gallery.php:17 template-parts/content-image.php:21
+#: template-parts/content-link.php:17 template-parts/content-quote.php:19
+#: template-parts/content-status.php:23 template-parts/content-video.php:17
+#: template-parts/content.php:29
+msgid "Read more"
+msgstr "Далее"
+
+#: front-page.php:80
+msgid "No posts to display"
+msgstr "Нет записей для отображения"
+
+#: front-page.php:83
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%s\">Начните</a>."
+
+#: functions.php:81
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:108
+msgid "Default Header 1"
+msgstr "Заголовок по умолчанию 1"
+
+#: functions.php:162
+msgctxt "Google Fonts: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:328
+msgid "First Sidebar"
+msgstr "Первая боковая панель"
+
+#: functions.php:330
+msgid ""
+"This sidebar only appears on single posts and pages. All defaults widgets "
+"work great here."
+msgstr ""
+"Эта боковая панель появляется только на отдельных записях и страницах. Все "
+"виджеты по умолчанию здесь отлично работают."
+
+#: functions.php:338 library/about.php:156
+msgid "Home Page Top Area"
+msgstr "Главная страница в верху"
+
+#: functions.php:340
+msgid ""
+"Area on the home page above the main content. Specifically designed for 3 "
+"Image & Text widgets."
+msgstr ""
+"Область на главной странице над основным содержанием. Виджет специально "
+"разработан для 3 изображений и текста."
+
+#: functions.php:370
+msgid "Posts navigation"
+msgstr "Постраничная навигация"
+
+#: functions.php:372
+msgid "&larr; Older posts"
+msgstr "&larr; Предыдущие записи"
+
+#: functions.php:376
+msgid "Newer posts &rarr;"
+msgstr "Более свежие записи &rarr;"
+
+#: functions.php:420
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:421 functions.php:444 image.php:52
+#: template-parts/content-footer.php:12
+msgid "(edit)"
+msgstr "(править)"
+
+#: functions.php:425
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: functions.php:444
+msgid "Pingback:"
+msgstr "Ссылаются на автора:"
+
+#: header.php:41
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: header.php:42
+msgid "Skip to content"
+msgstr "Скрыть контент"
+
+#: image.php:51 template-parts/content-footer.php:11
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: image.php:58 single.php:17
+msgid "Post navigation"
+msgstr "Навигация по записи"
+
+#: image.php:59
+msgid "&larr; Previous Image"
+msgstr "&larr; Предыдущее изображение"
+
+#: image.php:60
+msgid "Next Image &rarr;"
+msgstr "Следующее изображение &rarr;"
+
+#: library/about.php:26
+#, php-format
+msgid ""
+"Thanks for choosing %1$s! You can learn how to use the available theme "
+"options on the %2$sabout page%3$s."
+msgstr ""
+"Спасибо за выбор %1$s! Вы можете узнать, как использовать доступные опции "
+"темы %2$s здесь%3$s."
+
+#: library/about.php:28
+#, php-format
+msgid "Learn more about %s"
+msgstr "Читать больше о %s"
+
+#: library/about.php:41 library/preview-pro.php:85
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr "Добро пожаловать в%1$s %2$s"
+
+#: library/about.php:41
+#, php-format
+msgid "About %s"
+msgstr "О %s"
+
+#: library/about.php:104
+#, php-format
+msgid ""
+"Read through the following documentation to learn more about <em>%s</em> and "
+"how to use the available theme options."
+msgstr ""
+"Прочитайте следующую документацию, чтобы узнать больше о <em>%s</em> и о "
+"том, как использовать доступные параметры темы."
+
+#: library/about.php:111 library/preview-pro.php:95
+msgid "Documentation"
+msgstr "Документация"
+
+#: library/about.php:112 library/preview-pro.php:96
+msgid "Upgrade"
+msgstr "Обновление"
+
+#: library/about.php:116
+msgid "The Customizer"
+msgstr "Настройки"
+
+#: library/about.php:122
+#, php-format
+msgid ""
+"All theme options for <em>%1$s</em> are controlled under %2$sAppearance "
+"&rarr; Customize%3$s. From there, you can modify layout, custom menus, and "
+"more."
+msgstr ""
+"Все параметры темы в <em>%1$s</em> пункте %2$s Внешний вид &rarr; %3$s. "
+"Оттуда вы можете изменить макет, пользовательские меню и многое другое."
+
+#: library/about.php:124
+msgid "Site &amp; Main Content Width"
+msgstr "Сайт &amp; Ширина основного контента"
+
+#: library/about.php:125
+msgid ""
+"There are two width options for your site: 1200px &amp; 992px. You can "
+"select the width of your main content, based on a 12 column grid. Resizing "
+"your main content will also resize your sidebar."
+msgstr ""
+"Для вашего сайта есть два варианта ширины: 1200px &amp; 992px. Вы можете "
+"выбрать ширину вашего основного контента, основываясь на сетке из 12 "
+"столбцов. Изменение размера вашего основного контента также изменит размер "
+"вашей боковой панели."
+
+#: library/about.php:127 library/customizer.php:213
+msgid "Sidebar Layout"
+msgstr "Слой боковой панели"
+
+#: library/about.php:128
+msgid ""
+"With the sidebar layout option, you can decide whether to display your "
+"sidebar on the left or right of your main content."
+msgstr ""
+"С помощью опции макета боковой панели вы можете решить, отображать ли "
+"боковую панель слева или справа от основного содержимого."
+
+#: library/about.php:133
+msgid "Custom Menus"
+msgstr "Пользовательское меню"
+
+#: library/about.php:135
+#, php-format
+msgid "<em>%s</em> includes one Custom Menu locations: the Primary top menu."
+msgstr ""
+"<em>%s</em> включает одно расположение пользовательского меню: основное меню "
+"сверху."
+
+#: library/about.php:137
+#, php-format
+msgid ""
+"To add a navigation menu to the header, go to %1$sAppearance &rarr; Menus"
+"%2$s. By default, a list of categories will appear in this location if no "
+"custom menu is set."
+msgstr ""
+"Чтобы добавить навигационное меню в заголовок, перейдите к %1$s пункту "
+"&rarr; Меню%2$s. По умолчанию список категорий будет отображаться в этом "
+"месте, если пользовательское меню не установлено."
+
+#: library/about.php:139
+msgid ""
+"Clicking on a top-level link in the primary navigation will open up the "
+"first dropdown list of sub-menu links."
+msgstr ""
+"Если щелкнуть ссылку верхнего уровня в основной навигации, откроется первый "
+"раскрывающийся список ссылок подменю."
+
+#: library/about.php:145 library/customizer.php:238
+msgid "Jumbo Headline"
+msgstr ""
+
+#: library/about.php:151
+#, php-format
+msgid ""
+"The Jumbo Headline is a widgetized area on the home page designed for a Text "
+"widget. Go to %1$sAppearance &rarr; Widgets%2$s to add the widget and "
+"customize the text."
+msgstr ""
+"Jumbo Headline - это область виджетов на главной странице, предназначенная "
+"для текстового виджета. Перейти к %1$s пункт &rarr; Виджеты %2$s, чтобы "
+"добавить виджет и настроить текст."
+
+#: library/about.php:162
+#, php-format
+msgid ""
+"The section where the three widgets appear on the homepage will only display "
+"once a widget is added to the Home Page Top Area in %1$sAppearance &rarr; "
+"Widgets%2$s. The demo uses the custom Icon & Text widget that comes with <em>"
+"%3$s</em> to display an icon accompanied by text. You can even have the icon "
+"and text link to a page or a post, by adding a URL in the field provided."
+msgstr ""
+"Раздел, в котором три виджета отображаются на главной странице, будет "
+"отображаться только после добавления виджета в верхнюю область домашней "
+"страницы в %1$sпункте &rarr; Виджеты%2$s. В демонстрационной программе "
+"используется собственный виджет «Значок и текст», который поставляется с <em>"
+"%3$s</em>, для отображения значка, сопровождаемого текстом. Вы даже можете "
+"иметь значок и текстовую ссылку на страницу или сообщение, добавив URL-адрес "
+"в соответствующее поле."
+
+#: library/about.php:167 library/custom-metaboxes.php:29
+#: library/custom-metaboxes.php:30
+msgid "Custom Header Image"
+msgstr "Пользовательская картинка заголовка"
+
+#: library/about.php:169
+msgid ""
+"You have an option to display a custom header image on each of your posts "
+"and pages, through the Custom Header Image panel. Click <strong>Set Image</"
+"strong> to open the media library and select an image or upload a new one. "
+"Click <strong>Update</strong> or <strong>Publish</strong> when you&rsquo;re "
+"done."
+msgstr ""
+"У вас есть возможность отображать пользовательское изображение заголовка на "
+"каждой из ваших публикаций и страниц через панель «Пользовательский "
+"заголовок». Нажмите <strong> Установить изображение </strong>, чтобы открыть "
+"библиотеку мультимедиа и выбрать изображение или загрузить новое. Нажмите "
+"<strong> Обновить </strong> или <strong> Опубликовать </strong>, когда "
+"закончите."
+
+#: library/about.php:175
+msgid ""
+"If you don&rsquo;t set a custom header on a page or post, your default "
+"header image will be displayed instead, if you selected one."
+msgstr ""
+"Если вы не установили пользовательский заголовок на странице или в "
+"сообщении, вместо него будет отображаться изображение заголовка по "
+"умолчанию, если вы его выбрали."
+
+#: library/about.php:180
+msgid "Jetpack"
+msgstr ""
+
+#: library/about.php:186
+msgid "Infinite Scroll"
+msgstr "Бесконечная прокрутка"
+
+#: library/about.php:188
+#, php-format
+msgid ""
+"%1$sJetpack&rsquo;s Infinite Scroll%2$s allows your visitors to view all "
+"your posts without having to click through to the next page. As they scroll, "
+"new posts will be added. To activate go to %3$sJetpack &rarr; Settings%4$s. "
+msgstr ""
+"Бесконечный прокрутка %1$sJetpack%2$s позволяет вашим посетителям "
+"просматривать все ваши сообщения без необходимости переходить на следующую "
+"страницу. По мере их прокрутки будут добавляться новые сообщения. Для "
+"активации перейдите в%3$sJetpack &rarr; Настройки%4$s. "
+
+#: library/about.php:190
+msgid "Tiled Galleries"
+msgstr "Плиточные галлереи"
+
+#: library/about.php:192
+#, php-format
+msgid ""
+"%1$sJetpack&rsquo;s Tiled Galleries%2$s will display your images in a "
+"beautiful mosaic layout. Go to %3$sJetpack &rarr; Settings%4$s to turn it "
+"on. "
+msgstr ""
+"Плиточные галереи%1$sJetpack's%2$s отобразят ваши изображения в красивой "
+"мозаичной компоновке. Перейти к%3$sJetpack &rarr; Настройки%4$s, чтобы "
+"включить его. "
+
+#: library/about.php:194
+msgid "Carousel"
+msgstr "Карусель"
+
+#: library/about.php:196
+#, php-format
+msgid ""
+"With %1$sJetpack&rsquo;s Carousel%2$s, clicking on one of your gallery "
+"images will open up a featured lightbox slideshow. Turn it on by going to "
+"%3$sJetpack &rarr; Settings%4$s. "
+msgstr ""
+"При использовании %1$sJetpack's Карусель%2$s нажатие на одно из ваших "
+"изображений галереи, после чего начнется показ слайдов в виде лайтбокса. "
+"Включите его, перейдя в %3$sJetpack &rarr; Настройки%4$s. "
+
+#: library/about.php:201
+msgid "Pull Quotes"
+msgstr "Выдвижная цитата"
+
+#: library/about.php:207
+msgid ""
+"You can easily include a pull quote within your text by using the following "
+"code within the Text/HTML editor:"
+msgstr ""
+"Вы можете легко включить цитату в свой текст, используя следующий код в "
+"текстовом / HTML-редакторе:"
+
+#: library/about.php:209
+msgid ""
+"&lt;blockquote class=\"pullquote\"&gt;This is a pull quote that will appear "
+"within your text.&lt;/blockquote&gt;"
+msgstr ""
+"&It;blockquote class = \"pullquote\"&gt; Это выдвижная цитата, которая "
+"появится в вашем тексте. &lt;/blockquote&gt;"
+
+#: library/about.php:210
+msgid "You can also align it to the right with this code:"
+msgstr "Вы также можете выровнять его вправо с помощью этого кода:"
+
+#: library/about.php:212
+msgid ""
+"&lt;blockquote class=\"pullquote alignright\"&gt;This is a pull quote that "
+"will appear within your text.&lt;/blockquote&gt;"
+msgstr ""
+"&lt;blockquote class = \"pullquote alignright\"&gt; Это выдвижная цитата, "
+"которая появится в вашем тексте. &lt;/blockquote&gt;"
+
+#: library/about.php:216
+#, php-format
+msgid ""
+"For more information, check out the %1$sDocumentation &amp; FAQs%2$s section "
+"on my site."
+msgstr ""
+"Для получения дополнительной информации посмотрите раздел %1$sДокументация "
+"&amp; FAQs%2$s на моем сайте."
+
+#: library/custom-metaboxes.php:42
+msgid "Set Image"
+msgstr "Установить изображение"
+
+#: library/custom-metaboxes.php:42 library/widgets/widget-image-icon.php:77
+msgid "Remove Image"
+msgstr "Удалить изображение"
+
+#: library/custom-metaboxes.php:43
+msgid ""
+"Set a custom image for the header if you want to use something other than "
+"the default header image."
+msgstr ""
+"Установите пользовательское изображение для заголовка, если вы хотите "
+"использовать что-то другое, чем изображение заголовка по умолчанию."
+
+#: library/customizer.php:120
+msgid ""
+"Sidebars only appear on single posts and pages. All other pages are full "
+"width."
+msgstr ""
+"Боковые панели появляются только на отдельных сообщениях и страницах. Все "
+"остальные страницы имеют полную ширину."
+
+#: library/customizer.php:156
+msgid "Layout"
+msgstr "Слой"
+
+#: library/customizer.php:166
+msgid "Site Width"
+msgstr "Ширина сайта"
+
+#: library/customizer.php:171
+msgid "1200px"
+msgstr ""
+
+#: library/customizer.php:172
+msgid "992px"
+msgstr ""
+
+#: library/customizer.php:195
+msgid "Main Content Width"
+msgstr "Ширина основного контента"
+
+#: library/customizer.php:208
+msgid "Left"
+msgstr "Влево"
+
+#: library/customizer.php:209
+msgid "Right"
+msgstr "Вправо"
+
+#: library/customizer.php:226
+msgid "Post Content Display"
+msgstr "Отображение контента записи"
+
+#: library/customizer.php:231
+msgid "Teaser Excerpt"
+msgstr "Тизер"
+
+#: library/customizer.php:232
+msgid "Full Content"
+msgstr "Полный контент"
+
+#: library/customizer.php:240
+msgid ""
+"This section appears below the slider/header image on the home page. To "
+"remove it just delete all the content from the Title textarea."
+msgstr ""
+"Этот раздел отображается под слайдером / заголовком на главной странице. "
+"Чтобы удалить его, просто удалите все содержимое текстовой области заголовка."
+
+#: library/customizer.php:249
+msgid "Title"
+msgstr "Заголовок"
+
+#: library/customizer.php:261
+msgid "Text"
+msgstr "Текст"
+
+#: library/customizer.php:269
+msgid "Posts"
+msgstr "Записи"
+
+#: library/customizer.php:279
+msgid "Display Categories"
+msgstr "Категории"
+
+#: library/customizer.php:290
+msgid "Display Author"
+msgstr "Автор"
+
+#: library/customizer.php:301
+msgid "Display Date"
+msgstr "Дата"
+
+#: library/customizer.php:312
+msgid "Display Comment Count"
+msgstr "Количество комментариев"
+
+#: library/customizer.php:320
+msgid "Upgrade to Matheson Pro"
+msgstr "Обновиться до Matheson Pro"
+
+#: library/preview-pro.php:18
+#, php-format
+msgid "Upgrade to %s Pro"
+msgstr "Обновиться до %s Pro"
+
+#: library/preview-pro.php:18
+#, php-format
+msgid "Upgrade %s"
+msgstr "Обновление %s"
+
+#: library/preview-pro.php:88
+#, php-format
+msgid ""
+"Take your site to the next level with the full version of %s. Check out some "
+"of the advanced features that&rsquo;ll give you more control over your "
+"site&rsquo;s layout and design."
+msgstr ""
+"Поднимите свой сайт на новый уровень с полной версией%s. Ознакомьтесь с "
+"некоторыми из расширенных функций, которые дадут вам больше контроля над "
+"макетом и дизайном вашего сайта."
+
+#: library/preview-pro.php:100
+msgid "Featured Slider"
+msgstr "Слайдер"
+
+#: library/preview-pro.php:106
+#, php-format
+msgid ""
+"The most important information on your site should be at the top. That's why "
+"%s offers a featured slider directly below your site title. Get your point "
+"across as soon as your site loads."
+msgstr ""
+"Самая важная информация на вашем сайте должна быть вверху. Вот почему%s "
+"предлагает специальный слайдер прямо под заголовком вашего сайта. Получите "
+"свою точку зрения, как только ваш сайт загружается."
+
+#: library/preview-pro.php:107
+msgid ""
+"Use the Slider admin page to create/edit each custom slide or let the "
+"default set up feature your latest posts."
+msgstr ""
+"Используйте страницу администрирования слайдера, чтобы создавать/"
+"редактировать каждый пользовательский слайд, или разрешите настройку по "
+"умолчанию для ваших последних сообщений."
+
+#: library/preview-pro.php:112
+msgid "Grid Page Template"
+msgstr "Шаблон сетки страницы"
+
+#: library/preview-pro.php:117
+msgid ""
+"Why display your posts in a single column when you can take advantage of the "
+"included grid page template?"
+msgstr ""
+"Зачем отображать ваши сообщения в одном столбце, если вы можете "
+"воспользоваться включенным шаблоном страницы сетки?"
+
+#: library/preview-pro.php:118
+msgid "Each post will appear as part of the three columns grid."
+msgstr "Каждая запись будет отображаться как часть сетки из трех столбцов."
+
+#: library/preview-pro.php:123
+msgid "Social Menu"
+msgstr "Социальное меню"
+
+#: library/preview-pro.php:128
+msgid ""
+"Establish your online presence by letting your visitors join your social "
+"network. Help them stay up to date on everything you&rsquo;re doing"
+msgstr ""
+"Установите свое присутствие в Интернете, разрешив своим посетителям "
+"присоединиться к вашей социальной сети. Помогите им оставаться в курсе "
+"всего, что вы делаете"
+
+#: library/preview-pro.php:129
+msgid ""
+"Easily add a social menu by creating links to the most popular social media "
+"websites."
+msgstr ""
+"Легко добавьте социальное меню, создавая ссылки на самые популярные сайты "
+"социальных сетей."
+
+#: library/preview-pro.php:134
+msgid "Advanced Color Picker"
+msgstr "Продвинутая палитра цветов"
+
+#: library/preview-pro.php:139
+#, php-format
+msgid ""
+"Sometimes the default colors just aren&rsquo;t working for you. In %s you "
+"can use the advanced color picker to make sure you get the exact colors you "
+"want."
+msgstr ""
+"Иногда цвета по умолчанию просто не работают для вас. В %s вы можете "
+"использовать расширенную палитру цветов, чтобы убедиться, что вы получите "
+"именно те цвета, которые хотите."
+
+#: library/preview-pro.php:140
+msgid ""
+"Easily select one of the eight preset colors or dive even deeper into your "
+"customization by using a more specific hex code."
+msgstr ""
+"Легко выберите один из восьми предустановленных цветов или погрузитесь еще "
+"глубже в свои настройки, используя более специфический шестнадцатеричный код."
+
+#: library/preview-pro.php:145
+msgid "Google Fonts"
+msgstr ""
+
+#: library/preview-pro.php:150
+msgid ""
+"Web-safe fonts are a thing of the past, so why not try to spice things up a "
+"bit?"
+msgstr ""
+"Веб-безопасные шрифты остались в прошлом, так почему бы не попытаться "
+"немного оживить их?"
+
+#: library/preview-pro.php:151
+msgid ""
+"Choose from some of Google Fonts&rsquo; most popular fonts to improve your "
+"site&rsquo;s typeface readability and make things look even more amazing."
+msgstr ""
+"Выберите один из некоторых шрифтов Google Fonts. Самые популярные шрифты для "
+"улучшения читаемости шрифтов вашего сайта и придания ему еще большей "
+"привлекательности."
+
+#: library/preview-pro.php:156
+msgid "Extended Widgetized Footer"
+msgstr "Расширенный Виджет для футера"
+
+#: library/preview-pro.php:161
+msgid ""
+"If you need to include more widgets on your site, take advantage of the "
+"Extended Footer."
+msgstr ""
+"Если вам нужно добавить больше виджетов на свой сайт, воспользуйтесь "
+"расширенным нижним колонтитулом."
+
+#: library/preview-pro.php:162
+msgid ""
+"Use the Theme Options customizer to set the number of columns you want to "
+"appear. You can also customize your site&rsquo;s copyright notice."
+msgstr ""
+"Используйте настройщик параметров темы, чтобы задать количество столбцов, "
+"которые вы хотите отображать. Вы также можете настроить уведомление об "
+"авторских правах на своем сайте."
+
+#: library/preview-pro.php:167
+msgid "Even More Theme Options"
+msgstr "Еще больше опций темы"
+
+#: library/preview-pro.php:170
+msgid "Full Width Posts/Pages"
+msgstr "Полная ширина для постов и страниц"
+
+#: library/preview-pro.php:171
+msgid ""
+"Each page/post has an option to remove both sidebars so you can use the full "
+"width of your site to display whatever you want."
+msgstr ""
+"На каждой странице / записи  есть возможность удалить обе боковые панели, "
+"чтобы вы могли использовать всю ширину вашего сайта для отображения того, "
+"что вы хотите."
+
+#: library/preview-pro.php:174
+msgid "Multiple Sidebar Layouts"
+msgstr "Несколько макетов боковой панели"
+
+#: library/preview-pro.php:175
+msgid ""
+"Sometimes one sidebar just isn&rsquo;t enough, so add a second one and place "
+"it where you want."
+msgstr ""
+"Иногда одной боковой панели просто недостаточно, поэтому добавьте вторую и "
+"поместите ее в нужное место."
+
+#: library/preview-pro.php:181
+msgid "Bootstrap Shortcodes"
+msgstr ""
+
+#: library/preview-pro.php:182
+#, php-format
+msgid ""
+"Shortcodes are awesome and easy to use. That&rsquo;s why %s comes with a "
+"bunch, like a slideshow carousel, alert boxes and more."
+msgstr ""
+"Шорткоды потрясающие и простые в использовании. Вот почему %s поставляется с "
+"кучей, например, каруселью слайд-шоу, окнами оповещений и многим другим."
+
+#: library/preview-pro.php:185
+msgid "Import/Export Tool"
+msgstr "Инструмент импорта и экспорта"
+
+#: library/preview-pro.php:186
+msgid ""
+"Once you&rsquo;ve set up your site exactly how you want, you can easily "
+"export the Theme Options and Custom CSS for safe keeping."
+msgstr ""
+"После того как вы настроили свой сайт именно так, как вы хотите, вы можете "
+"легко экспортировать параметры темы и пользовательский CSS для безопасного "
+"хранения."
+
+#: library/preview-pro.php:192
+#, php-format
+msgid "Buy %s Now &rarr;"
+msgstr "Купить %s сейчас &rarr;"
+
+#: library/widgets/widget-image-icon.php:9
+msgid "Custom Text Widget with Image"
+msgstr "Пользовательский текстовый виджет с изображением"
+
+#: library/widgets/widget-image-icon.php:11
+msgid "Image & Text"
+msgstr "Изображение и текст"
+
+#: library/widgets/widget-image-icon.php:72
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: library/widgets/widget-image-icon.php:75
+msgid "Image:"
+msgstr "Изображение:"
+
+#: library/widgets/widget-image-icon.php:77
+msgid "Select Image"
+msgstr "Выбрать изображение"
+
+#: library/widgets/widget-image-icon.php:80
+msgid "URL:"
+msgstr ""
+
+#: library/widgets/widget-image-icon.php:85
+msgid "Automatically add paragraphs"
+msgstr "Автоматически добавлять абзацы"
+
+#: search.php:21
+msgid " search results for"
+msgstr " Результаты поиска для запроса:"
+
+#: sidebar.php:13
+msgid "Default Widget"
+msgstr "Виджет по умолчанию"
+
+#: sidebar.php:14
+#, php-format
+msgid ""
+"This is just a default widget. It'll disappear as soon as you add your own "
+"widgets on the %1$sWidgets admin page%2$s."
+msgstr ""
+"Это просто виджет по умолчанию. Он исчезнет, как только вы добавите свои "
+"собственные виджеты на страницу администрирования %1$sВиджет%2$s."
+
+#: sidebar.php:16
+msgid "Below is an example of an unordered list."
+msgstr "Ниже приведен пример неупорядоченного списка."
+
+#: sidebar.php:18
+msgid "List item one"
+msgstr "Первый элемент списка"
+
+#: sidebar.php:19
+msgid "List item two"
+msgstr "Второй элемент списка"
+
+#: sidebar.php:20
+msgid "List item three"
+msgstr "Третий элемент списка"
+
+#: sidebar.php:21
+msgid "List item four"
+msgstr "Четвертый элемент списка"
+
+#: single.php:18
+msgid "&larr; %title"
+msgstr "&larr; %заголовок"
+
+#: single.php:19
+msgid "%title &rarr;"
+msgstr ""
+
+#: template-parts/content-aside.php:14
+msgid "<i class=\"fa fa-asterisk\"></i> Aside"
+msgstr "<i class=\"fa fa-asterisk\"></i> В сторону"
+
+#: template-parts/content-footer.php:13
+msgid "Tags:"
+msgstr "Метки:"
+
+#: template-parts/content-header.php:22
+#, php-format
+msgid "by %s"
+msgstr "от %s"
+
+#: template-parts/content-header.php:23
+#, php-format
+msgid "Posts by %s"
+msgstr "Запись от %s"
+
+#: template-parts/content-header.php:29
+msgid "on"
+msgstr "Запись от"
+
+#: template-parts/content-header.php:37
+msgid "in"
+msgstr "| Раздел:"
+
+#: template-parts/content-header.php:47
+msgid "0 Comments"
+msgstr "0 комментариев"
+
+#: template-parts/content-header.php:47
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: template-parts/content-header.php:47
+msgid "% Comments"
+msgstr "% комментариев"
+
+#: template-parts/content-link.php:14
+msgid "<i class=\"fa fa-link\"></i> Link"
+msgstr "<i class=\"fa fa-link\"></i> Ссылка"
+
+#: template-parts/content-none.php:14
+msgid "Nothing found"
+msgstr "Поиск не дал результата"
+
+#: template-parts/content-none.php:17
+msgid "No results were found. Please try again."
+msgstr "Ничего не найдено. Пожалуйста, попробуйте еще раз."
+
+#: template-parts/content-status.php:14
+msgid "<i class=\"fa fa-plus-square\"></i> Status"
+msgstr "<i class=\"fa fa-plus-square\"></i> Статус"
+
+#: template-parts/content-status.php:20
+#, php-format
+msgid "Posted on %1$s at %2$s"
+msgstr "Запись от %1$s в %2$s"
+
+#. Theme Name of the plugin/theme
+msgid "Matheson"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themes.bavotasan.com/themes/matheson-pro-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create a truly unique design with Matheson, a lightweight and fully "
+"responsive HTML5 theme. Use the theme customizer to add your own background, "
+"page layout, site width and more. Distinguish each post with one of the "
+"eight supported post formats, such as: Video, Image, Aside, Status, Audio, "
+"Quote, Link and Gallery. Install JetPack to display each of your galleries "
+"through a tiled view and jQuery carousel. Compatible with bbPress & "
+"BuddyPress. Matheson uses Google Fonts for improved typeface readability and "
+"works perfectly in desktop browsers, tablets and handheld devices. For a "
+"live demo go to http://demos.bavotasan.com/matheson/."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "c.bavota, Nudge Design"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://bavotasan.com/"
+msgstr ""
